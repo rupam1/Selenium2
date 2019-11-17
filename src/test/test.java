@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 
 import Pages.ChkAction;
 import Pages.ChkActionWithoutBuild;
+import Pages.TakeScreenshot1;
 import Pages.dragSliderLeftSide;
 import Pages.dragdrop;
 
@@ -32,8 +33,8 @@ public class test extends Base{
 	
 	@Test
 	public void dragSliderLeft() {
-		dragSliderLeftSide drgslider = PageFactory.initElements(driver, dragSliderLeftSide.class);
-		drgslider.dragleftslider();
+		TakeScreenshot1 tkscreen = PageFactory.initElements(driver, TakeScreenshot1.class);
+		tkscreen.takeGreyHoundScreenshot();
 		
 		
 	}

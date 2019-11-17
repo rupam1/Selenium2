@@ -18,7 +18,8 @@ public class Base {
 		driver.manage().window().maximize();
 		//driver.get("http://google.com");
 		//driver.get("https://jqueryui.com/droppable/");
-		driver.get("https://rangeslider.js.org/");
+		//driver.get("https://rangeslider.js.org/");
+		driver.get("https://www.greyhound.com/");
 	    
 	
 	}

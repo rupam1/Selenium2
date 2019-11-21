@@ -31,8 +31,16 @@ public class test extends Base{
 		dradrop.draganddropcheck();
 	}*/
 	
-	@Test
+	/*	@Test
 	public void dragSliderLeft() {
+		dragSliderLeftSide draslider = PageFactory.initElements(driver, dragSliderLeftSide.class);
+		draslider.dragleftslider();
+	}*/
+	
+	
+	
+	@Test
+	public void takescreenshot() {
 		TakeScreenshot1 tkscreen = PageFactory.initElements(driver, TakeScreenshot1.class);
 		tkscreen.takeGreyHoundScreenshot();
 		

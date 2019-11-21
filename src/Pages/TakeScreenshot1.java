@@ -3,6 +3,7 @@ package Pages;
 import java.io.File;
 import java.io.IOException;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.io.FileHandler;
@@ -18,6 +19,7 @@ public class TakeScreenshot1 extends Base {
 		//Move image file to new destination
 		//File destination = new File(System.getProperty("user.dir") + "/Screenshots/GreyHound.png");
 		File destination = new File("D:\\test\\GreyHound.png");
+	
 		
 		
 		try {
@@ -28,6 +30,7 @@ public class TakeScreenshot1 extends Base {
 		
 		
 		System.out.println("Screenshot Located At " + destination);
+		
 	}
 
 }

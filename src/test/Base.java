@@ -19,7 +19,8 @@ public class Base {
 		//driver.get("http://google.com");
 		//driver.get("https://jqueryui.com/droppable/");
 		//driver.get("https://rangeslider.js.org/");
-		driver.get("https://www.greyhound.com/");
+		//driver.get("https://www.greyhound.com/");
+		driver.get("https://swisnl.github.io/jQuery-contextMenu/demo.html");
 	    
 	
 	}

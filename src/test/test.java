@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 
 import Pages.ChkAction;
 import Pages.ChkActionWithoutBuild;
+import Pages.MouseRightClick;
 import Pages.TakeScreenshot1;
 import Pages.dragSliderLeftSide;
 import Pages.dragdrop;
@@ -38,7 +39,7 @@ public class test extends Base{
 	}*/
 	
 	
-	
+	/*
 	@Test
 	public void takescreenshot() {
 		TakeScreenshot1 tkscreen = PageFactory.initElements(driver, TakeScreenshot1.class);
@@ -46,5 +47,14 @@ public class test extends Base{
 		
 		
 	}
-
+*/
+	@Test
+	public void RightMouseClick() {
+		MouseRightClick mrc = PageFactory.initElements(driver, MouseRightClick.class);
+		mrc.mouserightclick();
+		
+		
+	}
+	
+	
 }
